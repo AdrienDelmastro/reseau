@@ -1,0 +1,26 @@
+node {
+	shape: circle;
+	size: 25px, 25px;
+	fill-mode: plain;   /* Default.          */
+	fill-color: black;    /* Default is black. */
+	stroke-mode: plain; /* Default is none.  */
+	stroke-color: black; /* Default is black. */
+	text-mode: normal;
+	text-background-mode: none;
+	text-visibility-mode: normal;
+	text-style: bold;
+	text-alignment: center;	
+	text-size: 14;
+	text-color: white;
+	
+	
+}
+
+node.marked{
+	fill-color: red;
+}
+
+edge{
+	text-size: 14;
+	text-alignment: under;	
+}
